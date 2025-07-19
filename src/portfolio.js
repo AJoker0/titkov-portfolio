@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Andrii Titkov",
+  title: "Hi all, I'm Andrii",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with hands-on experience in building modern Web and Mobile applications using JavaScript, TypeScript, React.js, Node.js, Python, and MongoDB, along with a range of other powerful tools and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1xHAQEo6wxA0iyNsSOka6K1E4qpqgUf1D", // Direct download link for your resume
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/AJoker0",
+  linkedin: "https://www.linkedin.com/in/andrii-titkov-dev/",
+  gmail: "andrii.titkov@gmail.com",
+  gitlab: "https://gitlab.com/",
+  facebook: "https://www.facebook.com/profile.php?id=100021743444362",
+  instagram: "https://www.instagram.com/titkov_andrii/",
+  stackoverflow: "https://stackoverflow.com/users/28266276/andrii",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -54,9 +54,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ I create Progressive Web Apps (PWA) with smooth performance in both traditional and SPA setups."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ I connect apps to services like Firebase, AWS, and DigitalOcean, ensuring they scale and stay reliable."
     )
   ],
 
@@ -66,32 +66,38 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "devicon-html5-plain colored"
     },
+    
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "devicon-typescript-plain colored"
+    },
+
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "devicon-css3-plain colored"
     },
     {
       skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "devicon-sass-original colored"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "devicon-javascript-plain colored"
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "devicon-react-original colored"
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "devicon-nodejs-plain colored"
     },
-    {
+    /*{
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
-    },
+    },*/
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -110,11 +116,15 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "devicon-python-plain colored"
     },
     {
       skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "devicon-docker-plain colored"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "devicon-mongodb-plain colored"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -153,16 +163,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend (React, HTML, CSS, TypeScript)", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend (Node.js, Express, REST, MongoDB)",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Software/Dev Skills (Git, Clean Code, Algorithms, Testing)",
+      progressPercentage: "67%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
